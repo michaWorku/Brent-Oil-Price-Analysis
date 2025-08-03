@@ -1,5 +1,3 @@
-# FILE: src/data_ingestion/data_loader.py
-
 import pandas as pd
 import os
 
