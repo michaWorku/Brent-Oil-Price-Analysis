@@ -37,9 +37,9 @@ This project uses change point analysis and statistical modeling to detect signi
 ├── .env                     # Environment variables (e.g., API keys - kept out of Git)
 ├── src/                          # Core source code for the project
 │   ├── data_ingestion/           # Scripts for data acquisition and initial cleaning
-│   │   └── load_data.py          # Loads raw data, compiles event data, and performs initial validation
+│   │   └── data_loader.py          # Loads raw data, compiles event data, and performs initial validation
 │   ├── data_processing/          # Scripts for data transformation and feature engineering
-│   │   └── preprocess_data.py    # Calculates log returns, merges datasets, and prepares data for modeling
+│   │   └── preprocessor.py    # Calculates log returns, merges datasets, and prepares data for modeling
 │   ├── EDA/                      # Scripts for Exploratory Data Analysis (EDA)
 │   │   └── analyze_data.py       # Performs initial analysis, plots trends, and checks for stationarity
 │   ├── models/                   # Bayesian change point modeling
