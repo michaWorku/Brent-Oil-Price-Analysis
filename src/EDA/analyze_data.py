@@ -1,5 +1,3 @@
-# FILE: src/eda/analyze_data.py
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
