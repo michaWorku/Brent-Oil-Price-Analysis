@@ -2,8 +2,13 @@
 pandas
 numpy
 
+# Dev Tools
+ipykernel
+jupyter
+
 #Bayesian statistical modeling
 pymc
+theano-py
 arviz  # For model checking and diagnostics
 
 #Visualization
