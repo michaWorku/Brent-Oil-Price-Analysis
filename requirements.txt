@@ -8,10 +8,13 @@ jupyter
 
 #Bayesian statistical modeling
 pymc
-theano-py
 arviz  # For model checking and diagnostics
 
 #Visualization
 matplotlib
 seaborn
 plotly
+
+# Backend
+Flask 
+flask_cors
